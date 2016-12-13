@@ -33,7 +33,11 @@ Bank.prototype = {
   },
   accountAverage:function() {
     return this.totalCash()/this.accounts.length;
-  }
+  },
+
+  // addTenPercent: function() {
+    
+  // }
 };
 
 
